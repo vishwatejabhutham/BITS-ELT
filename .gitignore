@@ -1,0 +1,18 @@
+# Environment variables and secret keys
+.env
+
+# Python Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# Local Data Storage
+data/supabase_elt.db
+data/finance_elt.duckdb
+data/raw/
+
+# Streamlit config
+.streamlit/
+
+# OS files
+.DS_Store
