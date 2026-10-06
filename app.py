@@ -13,7 +13,7 @@ from pipeline.pipeline_runner import run_full_elt_pipeline
 
 # Page Configuration
 st.set_page_config(
-    page_title="BITS Enterprise Data Platform",
+    page_title="Enterprise Data Platform",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -164,7 +164,7 @@ with st.sidebar:
 # Official Executive Header
 st.markdown("""
 <div class="main-header">
-    <h1>BITS Enterprise Data Pipeline & Analytics Platform</h1>
+    <h1>Enterprise Data Pipeline & Analytics Platform</h1>
     <p>Automated Data Extraction, Landing Lake Storage, and In-Database Analytics Modeling</p>
 </div>
 """, unsafe_allow_html=True)
@@ -551,7 +551,7 @@ elif page == "📐 System Lineage & Architecture":
     
     st.markdown("---")
     st.code("""
-BITS-ELT Architecture Map:
+Enterprise E-Commerce ELT Architecture Map:
 
   [Source API / Generator]
             │
